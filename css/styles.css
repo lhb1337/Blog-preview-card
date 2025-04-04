@@ -42,7 +42,7 @@ body {
     border-radius: 15px;
 }
 
-.conteudo-do-card{
+.conteudo-do-card {
     display: flex;
     width: 336px;
     height: 194px;
@@ -77,6 +77,13 @@ body {
     font-weight: 800;
     color: var(--color-gray950);
     margin-top: 20px;
+    text-decoration: none;
+    transition: .25s;
+    font-size: 25px;
+}
+
+.titulo:hover {
+    color: var(--color-yellow);
 }
 
 .descricao {
